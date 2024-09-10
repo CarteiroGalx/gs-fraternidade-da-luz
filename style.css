@@ -1,0 +1,133 @@
+header{
+    background-color:whitesmoke;
+    color:black ;
+    width: 100%;
+    height: 11.5%;
+    left: 0;
+    top: 0;    
+    position: fixed;
+    line-height: 1% ;
+}
+.nome{
+    text-align: center;
+    font-size: 200%;
+    font-family:'Times New Roman', Times, serif;
+    padding: 1%;
+    margin-right: 65%;
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+
+.dropdown {
+    position:relative;
+    display: inline-block;
+    left: 75%;
+    margin-top: -29px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+}
+.dropdown-content a {
+    color: #134B70;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+}
+.dropdown-content a:hover {
+    background-color: #EEE7DA;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #134B70;
+    color: whitesmoke;
+}
+.slider {
+    display: block;
+    height: 293px;
+    width: 630px;
+    margin: auto;
+    margin-top: 145px;
+    position: relative;
+}
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #c7eece;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+    border-radius: 10px;
+}
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+.dropbtn{
+    background-color:whitesmoke;
+    color:#134B70;
+    border-radius: 40px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 19px;
+    border: none;
+}
+.fundo{
+    width: 101%;
+    height: 102%;
+    margin-left: -1%;
+    
+}
+.quem{
+    text-decoration: none;
+    font-size: 19px;
+    color: #134B70;
+    left:76%;
+    position:relative;
+    display: inline-block;
+    
+}
+.container {  
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 50px 50px;  
+}
