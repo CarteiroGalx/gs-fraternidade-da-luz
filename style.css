@@ -109,23 +109,22 @@ a:link{
 .fundo{
     width: 101%;
     height: 102%;
-    margin-left: -1%;
-    
+    margin-left: -1%;  
 }
 .quem{
     text-decoration: none;
     font-size: 19px;
     color: #134B70;
-    display: inline-block;
-    
+    display: inline-block;    
 }
 .container {  
     display: grid;
 }
-
 @media (max-width: 770px) {
     header{
         flex-direction: column;
-    }
-    
+    } 
+}
+.h1{
+    margim-top:200px;
 }
