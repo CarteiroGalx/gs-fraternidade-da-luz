@@ -1,4 +1,5 @@
 header{
+    padding: 10px 0;
     display: flex;
     z-index: 2;
     background-color: whitesmoke;
@@ -8,8 +9,6 @@ header{
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    background: rgb(245,245,245);
-    background: linear-gradient(180deg, rgba(245,245,245,1) 90%, rgba(16,28,61,0) 100%);
 }
 
 .nome{
@@ -54,10 +53,4 @@ header a:link{
 .dropdown:hover .dropbtn {
     background-color: #134B70;
     color: whitesmoke;
-}
-
-@media (max-width: 770px) {
-    header{
-        flex-direction: column;
-    }
 }

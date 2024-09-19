@@ -1,0 +1,25 @@
+@media (max-width: 770px) {
+    header{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1090px) {
+    
+    main div{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    main div p{
+        position: absolute;
+        margin: 0 20px;
+        z-index: 1;
+    }
+
+    main div img{
+        opacity: 20%;
+        margin: 0 auto;
+    }
+}
