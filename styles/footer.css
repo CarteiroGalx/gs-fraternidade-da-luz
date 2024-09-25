@@ -1,0 +1,32 @@
+footer{
+    background-color: #EEE7DA;
+}
+
+footer h3{
+    text-align: center;
+}
+
+.social-icons{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+
+.map-area h2{
+    margin: 15px 0;
+}
+
+.map-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
