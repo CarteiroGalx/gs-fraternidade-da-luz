@@ -25,6 +25,20 @@
     }
 }
 
+@media (max-width: 660px) {
+    footer{
+        flex-direction: column;
+    }
+
+    .map-area h3{
+        display: none;
+    }
+
+    footer .social-icons{
+        margin-bottom: 30px;
+    }
+}
+
 @media (max-width: 420px) {
     h2{
         font-size: 22px;
