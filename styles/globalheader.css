@@ -1,5 +1,5 @@
 header{
-    padding: 10px 0;
+    height: 50px;
     display: flex;
     z-index: 2;
     background-color: whitesmoke;
@@ -17,10 +17,22 @@ header{
     text-align: start;
 }
 
+header .buttons{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 header .btn-header{
+    vertical-align: middle;
     text-decoration: none;
     font-size: 19px;
-    margin: 0 10px;
+    margin: auto 10px;
     color: #134B70;
     display: inline-block;    
+}
+
+.btn-header:hover{
+    cursor: pointer;
+    color: blue;
 }
