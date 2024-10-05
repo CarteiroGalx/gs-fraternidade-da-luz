@@ -1,0 +1,26 @@
+header{
+    padding: 10px 0;
+    display: flex;
+    z-index: 2;
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome{
+    color: black;
+    font-weight: 500;
+    text-align: start;
+}
+
+header .btn-header{
+    text-decoration: none;
+    font-size: 19px;
+    margin: 0 10px;
+    color: #134B70;
+    display: inline-block;    
+}

@@ -7,14 +7,25 @@
     }
 
     main div p{
-        position: absolute;
+        text-align: center;
+        max-width: 85%;
         margin: 0 20px;
         z-index: 1;
+        font-size: larger;
+    }
+
+    h1{
+        margin-bottom: 70px;
     }
 
     main div img{
+        position: absolute;
         opacity: 20%;
         margin: 0 auto;
+    }
+
+    footer{
+        margin-top: 100px;
     }
 }
 
@@ -39,16 +50,31 @@
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 460px) {
     h2{
         font-size: 22px;
     } 
+
+    main p{
+        font-size: large;
+    }
 }
 
 @media (max-width: 390px) {
     h2{
         font-size: 20px;
     }
+
+    main{
+        height: 400px;
+        padding-top: 100px;
+    }
+
+    footer{
+        margin-top: 180px;
+    }
+
+
 }
 
 

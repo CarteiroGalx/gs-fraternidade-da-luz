@@ -1,0 +1,21 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+main{
+    padding-top: 80px;
+}
+
+main div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main div p{
+    margin: auto 0 auto 35px;
+    font-size: large;
+}
+
+main div img{
+    max-height: 380px;
+}

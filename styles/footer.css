@@ -1,20 +1,33 @@
 footer{
-    margin-top: 85px;
+    margin-top: 60px;
     background-color: #EEE7DA;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 12px;
 }
 
 footer h2{
     text-align: center;
 }
 
-.social-icons{
-    background-color: aqua;
+.social div{
     display: flex;
     justify-content: center;
 }
+
+.social div a{
+    font-size: 30px;
+    color: #ca9739;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.social div a:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    color: blueviolet;
+}
+
 
 .icon{
     margin: 0 10px;
@@ -37,7 +50,7 @@ footer h2{
 
 .mapBox{
     position: relative;
-    border-radius: 20px;
+    border-radius: 5px;
     max-width: 800px;
     max-height: 800px;
     min-height: 200px;
@@ -50,5 +63,5 @@ footer h2{
 .mapBox iframe{
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 5px;
 }
