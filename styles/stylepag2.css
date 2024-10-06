@@ -1,0 +1,84 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 50px;
+}
+  
+.effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(110, 87, 36, 0) 20%);
+}
+
+.text{
+    margin: 0 40px;
+}
+
+.text-campanha{
+    max-width: 60%;
+    font-size: large;
+    margin-bottom: 240px;
+}
+
+.align-start{
+    text-align: start;
+}
+
+.align-end{
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.campanhas img{
+    max-width: 450px;
+}
+
+.text{
+    position: relative;
+}
+
+.text .align-right{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    border-radius: 0 50% 50% 0;
+    z-index: -2;
+}
+
+.text .effect-right{
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 61%, rgba(16, 28, 61, 0) 72%);
+    top: 0;
+    z-index: -1;
+}
+
+.text .align-left{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    border-radius: 50% 0 0 50%;
+    z-index: -2;
+}
+
+.text .effect-left{
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    background: linear-gradient(270deg, rgb(255, 255, 255) 65%, rgba(255, 255, 255, 0) 72%);
+    top: 0;
+    z-index: -1;
+}
