@@ -29,13 +29,6 @@
     }
 }
 
-
-@media (max-width: 770px) {
-    header{
-        flex-direction: column;
-    }
-}
-
 @media (max-width: 660px) {
     footer{
         flex-direction: column;
