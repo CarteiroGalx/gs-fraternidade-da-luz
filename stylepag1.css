@@ -1,5 +1,6 @@
 html{
     font-family: "Roboto", sans-serif;
+    height: 100%;
 }
 
 body{
@@ -23,4 +24,17 @@ main div p{
 
 main div img{
     max-height: 380px;
+}
+
+.donate-box{
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+    background-color: rgb(3, 122, 219);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 35vw;
 }
