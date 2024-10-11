@@ -49,7 +49,7 @@
     } 
 
     main p{
-        font-size: large;
+        font-size: 10px;
     }
 }
 
@@ -59,14 +59,8 @@
     }
 
     main{
-        height: 400px;
         padding-top: 100px;
     }
-
-    footer{
-        margin-top: 180px;
-    }
-
 
 }
 

@@ -38,4 +38,5 @@ main div img{
     display: flex;
     flex-direction: column;
     width: 35vw;
+    min-width: 280px;
 }
