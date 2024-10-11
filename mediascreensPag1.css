@@ -44,9 +44,7 @@
 }
 
 @media (max-width: 460px) {
-    h2{
-        font-size: 22px;
-    } 
+
 
     main p{
         font-size: 10px;
@@ -54,9 +52,6 @@
 }
 
 @media (max-width: 390px) {
-    h2{
-        font-size: 20px;
-    }
 
     main{
         padding-top: 100px;
