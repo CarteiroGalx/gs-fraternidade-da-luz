@@ -2,8 +2,13 @@ html{
     font-family: "Roboto", sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 main{
     padding-top: 80px;
+    background-color: white;
 }
 
 main div{
