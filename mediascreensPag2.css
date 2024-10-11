@@ -1,23 +1,21 @@
 @media (max-width: 900px) {
-    .text .img-to-right{
-        z-index: -1;
-        top: 0%;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 100%;
-        border-radius: 0 0 0 0;
+    .img-to-right, .img-to-left{
+        display: none;
     }
 
-    .text .img-to-left{
-        z-index: -1;
-        top: 0%;
-        left: 50%;
-        transform: translate(-50%);
-        height: 100%;
-        border-radius: 0 0 0 0;
+    .align-start, .align-end{
+        text-align: center;
     }
 
-    .img-to-left::after{
-        background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 15%, rgba(255,255,255,0) 85%, rgba(255,255,255,1) 95%);
+    .text{
+        margin-bottom: 150px;
+    }
+
+    .text h1{
+        width: 100%;
+    }
+
+    .text-campanha{
+        max-width: 100%;
     }
 }
