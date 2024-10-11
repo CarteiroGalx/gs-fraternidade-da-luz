@@ -28,7 +28,6 @@ html{
 .text-campanha{
     max-width: 60%;
     font-size: large;
-    margin-bottom: 240px;
 }
 
 .align-start{
@@ -45,6 +44,7 @@ html{
 
 .text{
     position: relative;
+    margin-bottom: 240px;
 }
 
 .text .img-to-right{
@@ -67,7 +67,7 @@ html{
     right: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(297deg, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 80%)
+    background: linear-gradient(297deg, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 70%)
 }
 
 .text .img-to-left{
@@ -90,5 +90,5 @@ html{
     right: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(66deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 80%);
+    background: linear-gradient(66deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 70%);
 }
