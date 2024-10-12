@@ -1,0 +1,53 @@
+.bg-white{
+    background-color: aliceblue;
+}
+
+.bg-grey{
+    background-color: #f3f3f3;
+}
+
+.block{
+    height: 38vh;
+    width: 100%;
+    max-height: 800px;
+    min-height: 200px;
+}
+
+.block-content{
+    font-family: 'Raleway', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px 0;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.block-content img{
+    width: 18vw;   
+}
+
+.block-content h2{
+    font-weight: 400;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.text{
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
