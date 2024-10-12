@@ -1,8 +1,11 @@
 .globalBanner{
-    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
     width: 100%;
-    height: 250px;
-    background-image: url("/banner-background.jpeg");
+    height: 240px;
+    background-image: url(/banner-background.jpeg);
     background-size: cover;
     background-position: center;
 }

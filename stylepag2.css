@@ -1,5 +1,5 @@
 html{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body{
@@ -8,7 +8,6 @@ body{
 
 main{
     background-color: white;
-    padding-top: 50px;
 }
 
 .banner{
