@@ -8,6 +8,7 @@ body{
 
 main{
     background-color: white;
+    padding-top: 50px;
 }
 
 .banner{
@@ -52,6 +53,7 @@ main{
 
 .text{
     position: relative;
+    margin-top: 20px;
     margin-bottom: 240px;
 }
 

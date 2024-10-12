@@ -1,5 +1,5 @@
 html{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body{
@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    padding-top: 80px;
+    padding-top: 50px;
     background-color: white;
 }
 
@@ -18,9 +18,14 @@ main div{
     justify-content: space-evenly;
 }
 
+main .apresetation{
+    max-width: 80vw;
+    margin: 20px auto 0;
+}
+
 main div p{
     margin: auto 0 auto 35px;
-    font-size: large;
+    line-height: 1.5;
 }
 
 main div img{

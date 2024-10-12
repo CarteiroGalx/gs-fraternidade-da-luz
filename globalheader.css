@@ -12,9 +12,18 @@ header{
 }
 
 .nome{
+    font-family: 'Raleway';
+    font-weight: 300;
     color: black;
-    font-weight: 500;
     text-align: start;
+}
+
+.nome a{
+    text-decoration: none;
+}
+
+.nome a:active{
+    color: black;
 }
 
 header .buttons{
