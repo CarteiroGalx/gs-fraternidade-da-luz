@@ -1,0 +1,52 @@
+.bg-white{
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-grey{
+    background-color: #f3f3f3;
+}
+
+.block{
+    width: 100%;
+    min-height: 200px;
+}
+
+.block-content{
+    font-family: 'Raleway', sans-serif;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0;
+    min-width: 300px;
+}
+
+.block-content img{
+    width: 19vw;   
+    max-height: 260px;
+}
+
+.block-content h2{
+    font-weight: 400;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.text{
+    max-width: 70%;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
