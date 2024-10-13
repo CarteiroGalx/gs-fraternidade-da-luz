@@ -13,6 +13,7 @@ header{
 }
 
 .nome{
+    font-size: 21px;
     font-family: 'Raleway';
     font-weight: 300;
     color: black;
@@ -36,7 +37,7 @@ header .buttons{
 header .btn-header{
     vertical-align: middle;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 15px;
     margin: auto 10px;
     color: #134B70;
     display: inline-block;    
