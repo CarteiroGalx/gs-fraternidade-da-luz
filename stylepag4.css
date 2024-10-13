@@ -1,0 +1,44 @@
+.boxes{
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.box{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 365px;
+    margin: 0 15px;
+}
+
+.box img{
+    width: 365px;
+    border-radius: 10px;
+}
+
+.box button{
+    background-color: #add0e0;
+    border: 1px solid #000000;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.box button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 1px #0000007e;
+}
+
+.box h2{
+    margin: 20px 0;
+}
+
+.box p{
+    margin: 10px 0;
+    line-height: 1.5;
+}
