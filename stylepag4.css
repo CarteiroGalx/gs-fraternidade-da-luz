@@ -2,22 +2,24 @@
     max-width: 90%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin: 30px auto;
 }
 
 .box{
+    max-width: 365px;
+    margin: 0 5px;
+    width: 30vw;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 365px;
-    margin: 0 15px;
 }
 
 .box img{
-    width: 365px;
+    width: 30vw;
+    max-width: 365px;
     border-radius: 10px;
 }
 
@@ -25,6 +27,7 @@
     background-color: #add0e0;
     border: 1px solid #000000;
     width: 100%;
+    max-width: 365px;
     height: 35px;
     border-radius: 5px;
 }
