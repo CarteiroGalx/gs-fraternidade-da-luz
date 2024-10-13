@@ -1,0 +1,15 @@
+@media (max-width: 650px) {
+    .boxes{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box{
+        width: 365px;
+        margin: 0 auto;
+    }
+
+    .box img{
+        width: 100%;
+    }
+}

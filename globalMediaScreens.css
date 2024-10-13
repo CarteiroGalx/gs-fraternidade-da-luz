@@ -11,6 +11,19 @@
 @media (max-width: 770px) {
     header{
         flex-direction: column;
+        height: 60px;
+    }
+
+    header .buttons{
+        margin: 11px 0;
+    }
+
+    header .btn-header{
+        margin: 0 5px;
+    }
+
+    .globalBanner{
+        padding-top: 80px;
     }
 }
 
