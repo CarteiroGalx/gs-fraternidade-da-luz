@@ -1,0 +1,22 @@
+@media (max-width: 780px) {
+    .flex-start, .flex-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .text-campanha, .text h1{
+        text-align: center;
+    }
+
+    .text h1{
+        width: 100%;
+    }
+    
+    .text img{
+        margin: 0 auto;
+    }
+
+    .text .text-campanha{
+        margin: 0;
+    }
+
+}

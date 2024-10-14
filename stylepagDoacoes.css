@@ -1,0 +1,59 @@
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    background-color: white;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.campanhas{
+    max-width: 92%;
+    margin: 0 auto;
+}
+
+.text-campanha{
+    font-size: large;
+}
+
+.text{
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.text img{
+    max-width: 400px;
+    max-height: 400px;
+    height: 310px;
+    border-radius: 5px;
+}
+
+.flex-reverse{
+    text-align: end;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-reverse .text-campanha{
+    margin-left: 40px;
+}
+
+.flex-start{
+    display: flex;
+}
+
+.flex-start .text-campanha{
+    margin-right: 40px;
+}

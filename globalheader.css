@@ -15,8 +15,8 @@ header{
 .nome{
     font-size: 21px;
     font-family: 'Raleway';
-    font-weight: 300;
-    color: black;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
     text-align: start;
 }
 
@@ -24,8 +24,8 @@ header{
     text-decoration: none;
 }
 
-.nome a:active{
-    color: black;
+.nome a:visited, .nome a:active{
+    color: rgb(0, 0, 0);
 }
 
 header .buttons{
@@ -45,5 +45,4 @@ header .btn-header{
 
 .btn-header:hover{
     cursor: pointer;
-    color: blue;
 }
