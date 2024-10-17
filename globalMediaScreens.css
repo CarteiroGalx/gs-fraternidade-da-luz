@@ -1,14 +1,16 @@
 @media (max-width: 890px){
-    .globalBanner{
-        height: 140px;
-    }
+
 
     .globalBanner h1{
-        font-size: 75px;
+        font-size: 10vw;
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 800px) {
+    .globalBanner{
+        height: 140px;
+    }
+    
     header{
         flex-direction: column;
         height: 60px;

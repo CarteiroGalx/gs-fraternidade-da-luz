@@ -16,7 +16,6 @@ header{
     font-size: 21px;
     font-family: 'Raleway';
     font-weight: 700;
-    color: rgb(0, 0, 0);
     text-align: start;
 }
 
@@ -39,7 +38,7 @@ header .btn-header{
     text-decoration: none;
     font-size: 15px;
     margin: auto 10px;
-    color: #134B70;
+    color: #000000;
     display: inline-block;    
 }
 

@@ -12,7 +12,8 @@
 
 .globalBanner h1{
     text-align: center;
-    color: #52489c;
+    color: #000000;
+    margin: 0 auto;
     font-family: 'Raleway';
     font-size: 6vw;
     font-weight: 300;
