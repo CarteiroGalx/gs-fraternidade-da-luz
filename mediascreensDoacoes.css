@@ -20,3 +20,10 @@
     }
 
 }
+
+@media (max-width: 440px) {
+    .text img{
+        max-width: 280px;
+        max-height: 260px;
+    }
+}
